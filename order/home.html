@@ -5,13 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c742f79cc2.css" crossorigin="anonymous">
     <title>POS APP</title>
 </head>
 <body>
     <div class="header">
         <div class="header-left">
-            <button class="btn btn-back">Quay lại</button>
+            <button class="btn btn-back">
+                <i class="fa-solid fa-arrow-left"></i>
+                Quay lại
+            </button>
             <p class="label-table">Bàn số</p>
+            <input type="text" class="search-text" placeholder="Nhập tên món ...">
+            <button class="btn btn-search">
+                <i class="fa-solid fa-magnifying-glass fa-2x"></i>    
+            </button>
         </div>
         <div class="header-right">
             <p class="date">Ngày dd tháng mm năm yyyy</p>
@@ -22,23 +30,89 @@
         <div class="main-top">
             <div class="category">
                 <ul class="category-list">
-                    <ui class="category-item">1</ui>
-                    <ui class="category-item">3</ui>
-                    <ui class="category-item">4</ui>
-                    <ui class="category-item">5</ui>
+                    <li class="category-item"><p>Trà sữa</p></li>
+                    <li class="category-item">Trà chanh</li>
+                    <li class="category-item">Ăn vặt</li>
+                    <li class="category-item">Kem</li>
                 </ul>
             </div>
 
             <ul class="product-list">
-                <ui class="product"></ui>
-                <ui class="product">2</ui>
-                <ui class="product">3</ui>
-                <ui class="product">4</ui>
-                <ui class="product">5</ui>
-                <ui class="product">6</ui>
-                <ui class="product">7</ui>
-                <ui class="product">8</ui>
-                <ui class="product">9</ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>   
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
+                <ui class="product">
+                    <img src="ts.jpg" alt="" class="product-img">
+                    <p style="padding-left: 10px;">Trà sữa</p>
+                    <p style="padding-left: 10px;">50000đ</p>
+                </ui>
             </ul>
 
             <div class="cart">
@@ -67,27 +141,31 @@
             </div>
         </div>
         <div class="main-bottom">
-            <div class="note">1</div>
+            <div class="note">
+                <p style="width: 30%;text-align: right;margin-top: 20px;">Ghi chú</p>
+                <textarea class="note-text" placeholder="Nhập ghi chú ..."></textarea>
+            </div>
             <div class="payment">
                 <button class="btn">1</button>
                 <button class="btn">2</button>
                 <button class="btn">3</button>
+                <button class="btn"><i class="fa-solid fa-delete-left fa-2x"></i></button>
                 <button class="btn">4</button>
                 <button class="btn">5</button>
                 <button class="btn">6</button>
+                <button class="btn">Giảm giá</button>
                 <button class="btn">7</button>
                 <button class="btn">8</button>
                 <button class="btn">9</button>
-                <button class="btn">10</button>
-                <button class="btn">11</button>
-                <button class="btn">12</button>
-                <button class="btn">13</button>
-                <button class="btn">14</button>
-                <button class="btn pay">15</button>
+                <button class="btn">+/-</button>
+                <button class="btn">0</button>
+                <button class="btn">*</button>
+                <button class="btn pay">Thanh toán</button>
 
             </div>
         </div>
     </div>
     
 </body>
+<script src="https://kit.fontawesome.com/c742f79cc2.js" crossorigin="anonymous"></script>
 </html>
