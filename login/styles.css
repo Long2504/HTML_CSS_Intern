@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+}
+
+.left .left-main{
+    width: 70%;
+    height: 100%;
+    margin: auto;
+}
+.left-main .title {
+    display: flex;
+    align-items: center;
+}
+.left-main .title h1{
+    font-family: 'Mali', cursive;
+    display: inline;
+    margin: auto;
+}
+
+.left-main .input-group{
+    height: 20%;
+    width: 100%;
+    margin-top: 20%;
+
+}
+.input-group .input-item{
+    width: 60%;
+    height: 25%;
+    margin-bottom: 5%;
+    margin-left: 20%;
+    border-radius: 30px;
+
+}
+.input-group .input-item > input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #C4C4C4;
+    border-radius: 30px;
+    padding-left: 20px;
+}
+
+.left-main .btn-submit{
+    height: 5%;
+    display: flex;
+    justify-content: center;
+}
+.left-main .btn-submit > button{
+    width: 40%;
+    height: 100%;
+    background-color: #5D5A88;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+}
+
+
+.right{
+    width: 50%;
+    height: 100%;
+}
+
+input:focus,
+input:hover{
+    outline: none;
+    border: none;
+}
