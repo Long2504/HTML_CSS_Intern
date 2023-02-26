@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,32 +9,36 @@
     <link rel="stylesheet" href="https://kit.fontawesome.com/c742f79cc2.css" crossorigin="anonymous">
     <title>POS APP</title>
 </head>
+
 <body>
     <div class="header">
-        <div class="header-left">
-            <button class="btn btn-back">
-                <i class="fa-solid fa-arrow-left"></i>
-                Quay lại
-            </button>
-            <p class="label-table">Bàn số</p>
-            <input type="text" class="search-text" placeholder="Nhập tên món ...">
-            <button class="btn btn-search">
-                <i class="fa-solid fa-magnifying-glass fa-2x"></i>    
-            </button>
-        </div>
-        <div class="header-right">
-            <p class="date">Ngày dd tháng mm năm yyyy</p>
-            <p class="time">hh:mm:ss</p>
-        </div>
+        <button class="btn btn-back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Quay lại
+        </button>
+
+        <p class="number-table">Bàn số 3</p>
+        <input type="text" class="search-text">
+
+        <button class="btn btn-search">
+            <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+        </button>
+
+        <p class="date">Ngày 25 tháng 02 năm 2023</p>
+        
+        <p class="time">17h50p</p>
     </div>
     <div class="main">
         <div class="main-top">
-            <div class="category">
+            <div class="test">
+
                 <ul class="category-list">
-                    <li class="category-item"><p>Trà sữa</p></li>
+                    <li class="category-item">Trà sữa</li>
                     <li class="category-item">Trà chanh</li>
                     <li class="category-item">Ăn vặt</li>
                     <li class="category-item">Kem</li>
+                    <li class="category-item">Trà sữa</li>
+                    <li class="category-item">Trà sữa</li>
                 </ul>
             </div>
 
@@ -72,7 +77,7 @@
                     <img src="ts.jpg" alt="" class="product-img">
                     <p style="padding-left: 10px;">Trà sữa</p>
                     <p style="padding-left: 10px;">50000đ</p>
-                </ui>   
+                </ui>
                 <ui class="product">
                     <img src="ts.jpg" alt="" class="product-img">
                     <p style="padding-left: 10px;">Trà sữa</p>
@@ -141,10 +146,10 @@
             </div>
         </div>
         <div class="main-bottom">
-            <div class="note">
-                <p style="width: 30%;text-align: right;margin-top: 20px;">Ghi chú</p>
-                <textarea class="note-text" placeholder="Nhập ghi chú ..."></textarea>
-            </div>
+            <p class="note-label" style="width: 20%;text-align: right;margin-top: 20px;"></p>
+
+            <textarea class="note-text" placeholder="Nhập ghi chú ..."></textarea>
+
             <div class="payment">
                 <button class="btn">1</button>
                 <button class="btn">2</button>
@@ -159,13 +164,18 @@
                 <button class="btn">9</button>
                 <button class="btn">+/-</button>
                 <button class="btn">0</button>
-                <button class="btn">*</button>
+                <button class="btn">%</button>
                 <button class="btn pay">Thanh toán</button>
 
             </div>
+            <div class="pay-or-cart">
+                <button class="btn-cart">Chi tiết</button>
+                <button class="btn btn-pay">Thanh toán</button>
+            </div>
         </div>
     </div>
-    
+
 </body>
 <script src="https://kit.fontawesome.com/c742f79cc2.js" crossorigin="anonymous"></script>
+
 </html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://kit.fontawesome.com/c742f79cc2.css" crossorigin="anonymous">
+    <title>POS APP</title>
+</head>
+<body>
+    <div class="header">
+        <button class="btn btn-back">
+            <i class="fa-solid fa-arrow-left"></i>
+            Quay lại
+        </button>
+
+        <p class="number-table">Bàn số 3</p>
+        <input type="text" class="search-text">
+
+        <button class="btn btn-search">
+            <i class="fa-solid fa-magnifying-glass fa-1x"></i>
+        </button>
+
+        <p class="date">Ngày 25 tháng 02 năm 2023</p>
+        
+        <p class="time">17h50p</p>
+    </div>
+    <div class="main">
+        <div class="main-top">
+            <div class="cart" style="display: flex;width: 100%;height: 100%;">
+                <div class="cart-header">
+                    <p>Tên mặt hàng</p>
+                    <p>Đơn giá</p>
+                </div>
+                <ul class="cart-main">
+                    <ui class="product-order">
+                        <p>Trà sữa</p>
+                        <p>50000</p>
+                    </ui>
+                    <ui class="product-order">
+                        <p>Trà sữa</p>
+                        <p>50000</p>
+                    </ui>
+                    <ui class="product-order">
+                        <p>Trà sữa</p>
+                        <p>50000</p>
+                    </ui>
+                </ul>
+                <div class="cart-bottom">
+                    <p>Tổng cộng</p>
+                    <p>150000</p>
+                </div>
+            </div>
+        </div>
+        <div class="main-bottom">
+            <p  class="note-label" style="width: 20%;text-align: right;margin-top: 20px;">Ghi chú</p>
+            <textarea class="note-text" placeholder="Nhập ghi chú ..."></textarea>
+            <div class="payment" style="display: grid;width: 50%;">
+                <button class="btn">1</button>
+                <button class="btn">2</button>
+                <button class="btn">3</button>
+                <button class="btn"><i class="fa-solid fa-delete-left fa-2x"></i></button>
+                <button class="btn">4</button>
+                <button class="btn">5</button>
+                <button class="btn">6</button>
+                <button class="btn">Giảm giá</button>
+                <button class="btn">7</button>
+                <button class="btn">8</button>
+                <button class="btn">9</button>
+                <button class="btn">+/-</button>
+                <button class="btn">0</button>
+                <button class="btn">%</button>
+                <button class="btn pay">Thanh toán</button>
+
+            </div>
+        </div>
+</body>
+<script src="https://kit.fontawesome.com/c742f79cc2.js" crossorigin="anonymous"></script>
+</html>
